@@ -17,8 +17,8 @@ function fibonacci(n) {
 
 // Essa funçao pecorre os elementos
 function verificaFibonacci(num){
-    for(var c = 0; c <= num; c++){ // Aqui eu fiz um for que vai rodar num vezes 
-        if(fibonacci(c) === num){ // apos isso eu comparo se o valo
+    for(var c = 0; c <= num; c++){ // Aqui eu fiz um for que vai rodar (num) vezes 
+        if(fibonacci(c) === num){ // apos isso eu comparo se o valor e igual se for ele pertençe a sequencia
             return `o numero: ${num} pertençe a sequencia`
         }
     }
